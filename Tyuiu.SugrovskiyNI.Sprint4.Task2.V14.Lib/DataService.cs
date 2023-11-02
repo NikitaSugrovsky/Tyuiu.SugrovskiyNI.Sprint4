@@ -12,7 +12,6 @@ namespace Tyuiu.SugrovskiyNI.Sprint4.Task2.V14.Lib
         {
             int sumArray = 1;
 
-            // Вычисляем произведение нечетных элементов
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] % 2 != 0)
