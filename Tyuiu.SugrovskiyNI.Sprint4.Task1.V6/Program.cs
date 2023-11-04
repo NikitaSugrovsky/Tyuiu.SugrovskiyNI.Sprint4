@@ -33,18 +33,18 @@ namespace Tyuiu.SugrovskiyNI.Sprint4.Task1.V6
             Console.Write("Введите колличество элементов массива: ");
             len = Convert.ToInt32(Console.ReadLine());
 
-            int[] sumArray = new int[len];
+            int[] multArray = new int[len];
 
-            for (int i = 0; i <= len- 1; i++)
+            for (int i = 0; i <= len - 1; i++)
             {
-                Console.Write("Введите значение "  + i  + "элемента массива: ");
-                sumArray[i] = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Введите значение " + i + "элемента массива: ");
+                multArray[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine();
             Console.WriteLine("Массив: ");
             for (int i = 0; i <= len - 1; i++)
             {
-                Console.WriteLine(sumArray[i] + "\t");
+                Console.WriteLine(multArray[i] + "\t");
             }
             Console.WriteLine();
             Console.WriteLine();
@@ -55,7 +55,7 @@ namespace Tyuiu.SugrovskiyNI.Sprint4.Task1.V6
             Console.WriteLine("******************************************************************************");
             Console.WriteLine("Сумму четных элементов массива: ");
 
-            int res = ds.Calculate(sumArray);
+            int res = ds.Calculate(multArray);
 
 
             Console.Write(res);
